@@ -8,7 +8,7 @@
         <variable
             name="posts"
             type="com.example.newposts.network.Posts" />
-        
+
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -90,15 +90,7 @@
         tools:text="Email"
         android:text="@{posts.email}"/>
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="115dp"
-            android:layout_height="91dp"
-            app:layout_constraintBottom_toBottomOf="@+id/view"
-            app:layout_constraintEnd_toEndOf="@+id/tvBody"
-            app:layout_constraintStart_toStartOf="@+id/tvBody"
-            app:layout_constraintTop_toBottomOf="@+id/tvBody"
-            tools:srcCompat="@tools:sample/avatars" />
+        
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
